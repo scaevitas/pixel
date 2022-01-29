@@ -1,3 +1,7 @@
+:root{
+  --currentColor: rgb(0,0,0);/*this defines the variable so that we can use it later*/
+}
+
 body{
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "sans-serif";
   text-align: center;
@@ -91,7 +95,7 @@ input{
   margin: 10px;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
-  background-color: #91D2FA;
+  background-color: whitesmoke; /*I changed this to white to make it look better*/
   border: 1px solid black;
   justify-content: center;
 }
@@ -100,5 +104,10 @@ input{
   border: 1px solid rgba(0,0,0,0.2);
   width: 50px;
   height: 50px;
+}
 
+.grid-box:hover{
+  cursor: pointer;/*this makes all the divs make the mouse turn into a cursor*/
+  background-color: var(--currentColor);/*this turns background into the color currently selected*/
+  opacity: 0.75;
 }
