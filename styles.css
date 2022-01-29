@@ -1,6 +1,6 @@
 :root{
   --currentColor: rgb(0,0,0);/*this defines the variable so that we can use it later*/
-}
+}/*this variable gets modified by the javascript file*/
 
 body{
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "sans-serif";
@@ -40,7 +40,8 @@ button{
 }
 
 button:hover{
-  background-color: #B8B659;
+  cursor: pointer;/*this changes the mouse to a pointer*/
+  background-color: var(--currentColor); /*this changes it to the current color, the green was very ugly*/
 
 }
 form{

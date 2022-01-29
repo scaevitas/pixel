@@ -3,7 +3,7 @@ let greenInput = document.getElementById("green-input")
 let blueInput = document.getElementById("blue-input")
 let sampleColour = document.getElementById("samplecolour-el")
 let randomButton = document.getElementById("random-el")
-const hover = document.querySelector(':root');
+const hover = document.querySelector(':root');//this is for the vairable in the css file
 
 //this part adds the pixel divs, I was too lazy to actually write them by hand
 let container = document.querySelector(".grid-container")
