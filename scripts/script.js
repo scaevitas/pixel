@@ -1,4 +1,9 @@
-let sample = "The morning had dawned clear and cold, with a crispness that hinted at the end of summer. They set forth at daybreak to see a man beheaded, twenty in all, and Bran rode among them, nervous with excitement. This was the first time he had been deemed old enough to go with his lord father and his brothers to see the king's justice done. It was the ninth year of summer, and the seventh of Bran's life."
+let sample = `There was music from my neighbour’s house through the summer
+nights. In his blue gardens men and girls came and went like moths
+among the whisperings and the champagne and the stars. At high tide
+in the afternoon I watched his guests diving from the tower of his raft or
+taking the sun on the hot sand of his beach while his two motor-boats
+slit the waters, drawing aquaplanes over cataracts of foam.`
 let empty = ""
 
 let textArea = document.getElementById("textarea-el")
